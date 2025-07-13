@@ -1,44 +1,115 @@
-<!DOCTYPE html>
-<html lang="fr">
+<!DOCTYPE html><html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SPN - Accueil</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Secrétariat Public de Nyabwimba</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #0d0d0d;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .hero {
+            padding: 50px;
+            text-align: center;
+            background: linear-gradient(to right, #0d0d0d, #2e2e2e);
+            color: #fff;
+        }
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 40px;
+        }
+        .service-card {
+            background: #fff;
+            border-radius: 12px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+        .service-card h3 {
+            margin-top: 10px;
+        }
+        .contact {
+            background-color: #0d0d0d;
+            color: #fff;
+            text-align: center;
+            padding: 30px 20px;
+        }
+        .contact a {
+            background: #28a745;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        footer {
+            background: #111;
+            color: #bbb;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>SECRÉTARIAT PUBLIC DE NYABWIMBA</h1>
-        <p class="slogan">Donnez vie à vos idées, nous les imprimons</p>
+        <h1>Secrétariat Public de Nyabwimba</h1>
         <nav>
-            <ul>
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="about.html">À propos</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="gallery.html">Galerie</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
         </nav>
-    </header>
-    <main>
-        <section>
-            <h2>Bienvenue au SPN</h2>
-            <p>Situé à Nyabwimba, territoire de Kalehe, le Secrétariat Public de Nyabwimba est votre partenaire de confiance pour tous vos services de documents, impressions, photos et formations.</p>
-        </section>
-        <section class="services">
-            <h3>Nos services</h3>
-            <ul>
-                <li>Saisie et impression de documents</li>
-                <li>Photocopie noir et blanc et couleur</li>
-                <li>Conception et impression d’invitations de mariage</li>
-                <li>Impression de photos passeport et téléphones</li>
-                <li>Formation en informatique de base</li>
-                <li>Scans</li>
-            </ul>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2025 SECRÉTARIAT PUBLIC DE NYABWIMBA. Tous droits réservés.</p>
-    </footer>
+    </header><section class="hero">
+    <h2>Vos documents et services numériques en toute confiance !</h2>
+</section>
+
+<section id="services" class="services">
+    <div class="service-card">
+        <h3>Impression & Photocopie</h3>
+        <p>Couleur et noir-blanc pour tous vos documents officiels et personnels.</p>
+    </div>
+    <div class="service-card">
+        <h3>Photos Passeport</h3>
+        <p>Photos professionnelles et photos téléphone en impression rapide.</p>
+    </div>
+    <div class="service-card">
+        <h3>Scans de documents</h3>
+        <p>Scannez et envoyez vos documents officiels en toute sécurité.</p>
+    </div>
+    <div class="service-card">
+        <h3>Formation en Informatique</h3>
+        <p>Apprenez les bases de Word, Excel, Internet et plus encore.</p>
+    </div>
+    <div class="service-card">
+        <h3>Conception de Systèmes</h3>
+        <p>Développement de systèmes de gestion informatique : école, association, commerce, etc. Formation et installation incluses.</p>
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contactez-nous</h2>
+    <p>Pour vos services ou demandes spéciales :</p>
+    <a href="https://wa.me/243000000000" target="_blank">📞 WhatsApp Direct</a>
+</section>
+
+<footer>
+    &copy; 2025 Secrétariat Public de Nyabwimba | Propulsé par Bless Lyndé
+</footer>
+
 </body>
 </html>
