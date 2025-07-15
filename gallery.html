@@ -2,29 +2,46 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galerie - SPN</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            padding: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        h1 {
+            text-align: center;
+            color: #0d0d0d;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+        }
+        .gallery img {
+            max-width: 300px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        a {
+            display: block;
+            text-align: center;
+            margin-top: 30px;
+            color: #0d0d0d;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>Notre Galerie</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="about.html">À propos</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="gallery.html">Galerie</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <h2>Quelques Réalisations</h2>
-        <p>Ici, nous présenterons les images des documents, invitations et photos produites au SPN.</p>
-    </main>
-    <footer>
-        <p>&copy; 2025 SECRÉTARIAT PUBLIC DE NYABWIMBA. Tous droits réservés.</p>
-    </footer>
+    <h1>Galerie de Nos Travaux</h1>
+    <div class="gallery">
+        <img src="exemple1.png" alt="Exemple 1">
+        <img src="exemple2.png" alt="Exemple 2">
+        <img src="exemple3.png" alt="Exemple 3">
+    </div>
+    <a href="index.html">⬅️ Retour à l'accueil</a>
 </body>
-</html>
+    </html>
